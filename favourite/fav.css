@@ -1,0 +1,67 @@
+.about {
+	float: left;
+	background-color: green;
+	width: 600px;
+}
+img {
+	height: 300px;
+}
+p {
+	font-size: larger;
+	font-style: oblique;
+}
+h2.about {
+	color: red;
+	font-style: italic;
+}
+.sidebar {
+	float: right;
+	background-color: yellow;
+	margin: -580px;
+	width: 580px;
+	height: 579px;
+	font-family: serif;
+
+}
+.sidebar h2 {
+	text-align: center;
+	color: green;
+	border: 2px solid brown;
+	background-color: orange;
+	
+}
+ul {
+	line-height: 2;
+}
+.image {
+	float: left;
+	background-color: red;
+	width: 604px;
+	margin-left: -600px;
+	margin-top: 115px;
+}
+.album {
+	background-color: orange;
+	width: 648px;
+	margin-top: -1291px;
+	margin-left: 5px;
+	float: left;
+	font-family: sans-serif;
+}
+h1 {
+	border: 2px solid red;
+	padding: 6px;
+	margin: 10px;
+	background-color: grey;
+	color: darkgreen;
+}
+.image h2 {
+	background-color: white;
+}
+@media screen and (min-width: 480px) {
+	body {
+		background-color: skyblue;
+		color: black;
+	}
+
+}
